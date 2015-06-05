@@ -1,0 +1,28 @@
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .navbar-fixed-top { margin-bottom: 0; }
+  #app { margin-top: 0; }
+  #remaining-time, #miams { font-size: 0.8em; }
+  .answers .btn {
+    width: 100%;
+    font-weight: normal;
+    padding: 14px 0px;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+  .navbar-fixed-top { margin-bottom: 0; }
+  #app { margin-top: 0; }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .navbar-fixed-top { margin-bottom: 0; }
+  #app { margin-top: 0; }
+}
+ 
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
